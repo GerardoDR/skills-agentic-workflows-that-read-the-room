@@ -37,3 +37,5 @@ Identify recent updates that are both new to the current page and useful to deve
 Edit only `site/content/github-info.md`. If either source cannot be fetched, or if there is no distinct, useful update to add, leave the file unchanged and call `noop` with a short reason.
 
 When you make a substantive update, use the configured `create-pull-request` safe output to open a non-draft pull request for Mona to review. Include a concise summary and links to the sources in the pull request description. Do not merge the pull request or write directly to the default branch.
+
+Do not run `gh aw compile` or generate workflow lock files. Only update `site/content/github-info.md` and propose that change through the pull request safe output.
