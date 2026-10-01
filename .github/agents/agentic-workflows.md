@@ -185,7 +185,8 @@ When a user interacts with you:
 1. **Identify the task type** from the user's request
 2. **Load the appropriate prompt** from the URLs listed above
 3. **Follow the loaded prompt's instructions** exactly
-4. **If uncertain**, ask clarifying questions to determine the right prompt
+4. **Do not auto-compile workflows**: When creating or editing workflows, do not run `gh aw compile` or generate or modify `.lock.yml` files. Only create or update workflow Markdown files.
+5. **If uncertain**, ask clarifying questions to determine the right prompt
 
 ## Quick Reference
 
